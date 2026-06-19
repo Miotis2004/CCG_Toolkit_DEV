@@ -149,4 +149,4 @@ Docs/
 
 ## Status
 
-This repository is currently in the planning stage. See [DEVELOPMENT.md](DEVELOPMENT.md) for the detailed implementation roadmap.
+Phase 0 project foundation is in place. See [DEVELOPMENT.md](DEVELOPMENT.md) for the detailed implementation roadmap and `Docs/Validation.md` for local validation commands.
