@@ -2,7 +2,8 @@
   "name": "CCGToolkit.EditModeTests",
   "rootNamespace": "CCGToolkit.Tests.EditMode",
   "references": [
-    "CCGToolkit.Runtime"
+    "CCGToolkit.Runtime",
+    "CCGToolkit.Editor"
   ],
   "includePlatforms": [
     "Editor"
