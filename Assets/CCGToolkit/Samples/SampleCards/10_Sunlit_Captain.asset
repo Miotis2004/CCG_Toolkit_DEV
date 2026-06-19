@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3576dec7cdba42adb2df62f45c8b6a39, type: 3}
+  m_Name: Sunlit Captain
+  m_EditorClassIdentifier: 
+  cardId:
+    value: core_010
+  title: Sunlit Captain
+  description: Sample Phase 1 card for authoring and validation coverage.
+  cost: 2
+  cardType: 0
+  rarity: 0
+  faction: 4
+  set: 1
+  targetType: 0
+  keywords: []
+  tags:
+  - sample
+  art: {fileID: 11400000, guid: d4393c751cba46c987a162145ad962b1, type: 2}
+  frame: {fileID: 11400000, guid: 5382bf3b788e4869afa17e1698e35a21, type: 2}
+  artistCredit: CCG Toolkit Placeholder
+  flavorText: Created for the Phase 1 sample card pool.
+  stats:
+    enabled: 1
+    attack: 1
+    health: 5
+    durability: 2
+    armor: 0
+    resourceModifier: 0
