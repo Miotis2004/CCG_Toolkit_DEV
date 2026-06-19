@@ -1,0 +1,18 @@
+{
+  "name": "CCGToolkit.Editor",
+  "rootNamespace": "CCGToolkit.Editor",
+  "references": [
+    "CCGToolkit.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
