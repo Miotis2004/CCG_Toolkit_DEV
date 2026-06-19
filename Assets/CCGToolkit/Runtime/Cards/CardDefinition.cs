@@ -47,6 +47,34 @@ namespace CCGToolkit.Cards
         public string FlavorText { get => flavorText; set => flavorText = value; }
         public CardStatBlock Stats => stats;
 
+
+        public void AddKeyword(CardKeyword keyword)
+        {
+            if (!keywords.Contains(keyword)) keywords.Add(keyword);
+        }
+
+        public void RemoveKeyword(CardKeyword keyword)
+        {
+            keywords.Remove(keyword);
+        }
+
+        public void ReplaceKeywords(IEnumerable<CardKeyword> newKeywords)
+        {
+            keywords.Clear();
+            if (newKeywords == null) return;
+            foreach (var keyword in newKeywords) AddKeyword(keyword);
+        }
+
+        public void ReplaceTags(IEnumerable<string> newTags)
+        {
+            tags.Clear();
+            if (newTags == null) return;
+            foreach (string tag in newTags)
+            {
+                if (!string.IsNullOrWhiteSpace(tag)) tags.Add(tag.Trim());
+            }
+        }
+
         public CardValidationReport Validate(bool requireArt = true)
         {
             var report = new CardValidationReport();
